@@ -5,109 +5,22 @@
 }
 
 *::selection {
-    background-color: blanchedalmond;
+    background-color: beige;
 }
 
 
-:root {
-    --color-white: #fff;
+@font-face {
+    font-family: "MuseoCyrl-900";
+    src: url(../fonts/Museo\ Cyrl\ 900.woff) format("woff"),
+        url(../fonts/Museo\ Cyrl\ 900.woff2) format("woff2");
+    font-style: normal;
+    font-display: swap;
+    font-weight: 900;
 }
 
 
-.header {
-    background-color: rgba(30, 31, 40);
-}
-
-
-.header-container {
-    max-width: 1440px;
-    margin: auto;
-    padding: 50px 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-
-.header-container__title {
-    color: var(--color-white);
-    font-size: 24px;
-}
-
-
-.form-search__input {
-    padding: 16px 32px;
-    border-radius: 10px;
-    background-color: grey;
-    border: none;
-    color: var(--color-white);    
-}
-
-
-
-.form-search__button {
-    padding: 16px 32px;
-    border-radius: 10px;
-    border: none;
-    background-color: green;
-    color: var(--color-white);
-    margin-left: 8px;
-}
-
-/*  */
-.author {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.authour__image {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
-
-
-.author__button {
-    font-family: 'Courier New', Courier, monospace;
-    padding: 8px 16px;
-    border-radius: 10px;
-    border: none;
-    background-color: grey;
-    color: var(--color-white);
-}
-
-
-/* main */
 .container {
-    max-width: 1440px;
+    max-width: 1110px;
     margin: auto;
-}
-
-.nav {
-    margin: 60px 0;
-    display: flex;
-    gap: 20px;    
-}
-
-.nav__link {
-    text-decoration: none;
-    color: inherit;
-    border: 1px solid #000;
-    padding: 8px 16px;
-    border-radius: 10px;
-}
-
-.nav__link:hover {
-    background-color: blue;
-    color: var(--color-white);
-}
-
-
-.nav__link--red {
-    background-color: yellow;  
-}
-
-.nav__link--red:hover {
-    background-color: red;
-    color: var(--color-white);
+    padding: 50px 0 40px 0;
 }

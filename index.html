@@ -3,41 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotel Booking Web</title>
+    <title>Hotel Booking</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="header">
-        <div class="header-container">
-            <span class="header-container__title">Lorem, ipsum dolor.</span>
-            <form action="form-search">
-                <input class="form-search__input" type="email" id="email" name="gmail.com">
-                <button class="form-search__button">Click me</button>
-            </form>
-            <div class="author">
-                <img src="images/Untitled.jpg" alt="image-author" class="authour__image">
-                <button class="author__button">Click me</button>
-            </div>
-        </div>
-    </header>
-    <main class="main">
         <div class="container">
-            <nav class="nav">
-                <a href="#" class="nav__link nav__link--red">Lorem, ipsum.</a>
-                <a href="#" class="nav__link">Lorem, ipsum.</a>
-                <a href="#" class="nav__link">Lorem, ipsum.</a>
-                <a href="#" class="nav__link">Lorem, ipsum.</a>
-                <a href="#" class="nav__link">Lorem, ipsum.</a>
-            </nav>
+            <div class="header-top">
+                <a href="#" class="logo">
+                    <img class="logo__image" src="images/horizontal-logo.svg" alt="image-header-left">
+                </a>
+                <form action="#" class="search">
+                    <input type="text" class="search__input" placeholder="Search Location">
+                    <button class="search__button">
+                        <img src="images/search.svg" alt="Icon: search">
+                    </button>
+                </form>
+                <a href="#" class="user">
+                    <img class="user__avatar" src="images/author.svg" alt="Icon: author">
+                    <span class="user__name">Nathan</span>
+                </a>
+            </div>
+            <!--/. header-top -->
+            <ul class="header-menu">
+                <li class="header-menu__item">
+                    <a href="#" class="header-menu__link">All Deals</a>
+                </li>
+                <li class="header-menu__item">
+                    <a href="#" class="header-menu__link">Hotel</a>
+                </li>
+                <li class="header-menu__item">
+                    <a href="#" class="header-menu__link">Activities</a>
+                </li>
+                <li class="header-menu__item">
+                    <a href="#" class="header-menu__link">Hotel Day Packages</a>
+                </li>
+                <li class="header-menu__item">
+                    <a href="#" class="header-menu__link">Restaurants</a>
+                </li>
+                <li class="header-menu__item">
+                    <a href="#" class="header-menu__link">Events</a>
+                </li>
+                <li class="header-menu__item">
+                    <a href="#" class="header-menu__link">Rodrigues</a>
+                </li>
+            </ul>
         </div>
-    </main>
+        <!-- /.header-container -->
+    </header>
     
-    <footer class="footer">
-        <button class="footer__button footer__button--blue">
-                        
-        </button>
 
-    </footer>
 
 </body>
-</html>
+</html> 
