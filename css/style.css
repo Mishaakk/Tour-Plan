@@ -1,14 +1,7 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
-
-*::selection {
-  background-color: blanchedalmond;
-}
-
 body {
-  font-family: 'Mulish';
-}
+  font-family: "Mulish", sans-serif;
+}/*# sourceMappingURL=style.css.map */
