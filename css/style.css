@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 * {
   box-sizing: border-box;
 }
@@ -321,16 +320,16 @@ template {
   display: none;
 }
 
-.header {
+.navbar {
   background-color: #fff;
 }
-.header-top {
+.navbar-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 40px 0;
 }
-.header__search {
+.navbar__search {
   margin-right: auto;
   margin-left: 118px;
 }
@@ -377,9 +376,4 @@ template {
   font-weight: 400;
   font-family: "Mulish", sans-serif;
   color: #333333;
-=======
-body {
-  background-color: #fff;
-  color: red;
->>>>>>> refs/remotes/origin/master
 }/*# sourceMappingURL=style.css.map */
