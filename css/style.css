@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   box-sizing: border-box;
 }
@@ -376,4 +377,9 @@ template {
   font-weight: 400;
   font-family: "Mulish", sans-serif;
   color: #333333;
+=======
+body {
+  background-color: #fff;
+  color: red;
+>>>>>>> refs/remotes/origin/master
 }/*# sourceMappingURL=style.css.map */
