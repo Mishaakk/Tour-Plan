@@ -4,6 +4,8 @@
 @media screen and (max-width: 992px)
     .container
         max-width: 760px
+    .logo
+        width: 135px
     .navbar
         &-top
             padding: 30px 0
@@ -14,4 +16,28 @@
             max-width: 340px
 @media screen and (max-width: 768px)
     .container
-        max-width: 700px
+        max-width: 578px
+        width: 92%
+    .navbar
+        &__search, &-menu, &__user
+            display: none
+    .menu
+        &-button
+            width: 16px
+            height: 11px
+            display: flex
+            align-items: center
+            justify-content: space-between
+            flex-direction: column
+            border: none
+            background-color: $light
+            cursor: pointer
+            &__line
+                width: 16px
+                height: 1px
+                background-color: $tc
+
+@media screen and (max-width: 576px)
+    .logo
+        width: 100px
+        height: 13px
