@@ -1,0 +1,18 @@
+.breadcrumb
+    max-width: 1110px
+    margin: auto
+    &-list
+        display: flex
+        align-items: center
+        gap: 10px
+        padding: 0
+        list-style: none
+        &__item
+            font-size: 10px
+            line-height: 13px
+            &:not(:last-child)
+                &::after
+                    content: '/'
+        &__link 
+            text-decoration: none
+            color: inherit

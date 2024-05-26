@@ -3,6 +3,7 @@
 }
 
 body {
+  background-color: #F5FAFE;
   font-family: "Mulish", sans-serif;
 }
 
@@ -403,6 +404,132 @@ template {
   text-decoration: none;
 }
 
+.breadcrumb {
+  max-width: 1110px;
+  margin: auto;
+}
+.breadcrumb-list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
+.breadcrumb-list__item {
+  font-size: 10px;
+  line-height: 13px;
+}
+.breadcrumb-list__item:not(:last-child)::after {
+  content: "/";
+}
+.breadcrumb-list__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hotel {
+  padding: 23px 0 70px 0;
+}
+.hotel-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hotel-name {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  margin: 4px 0 0 0;
+}
+.hotel-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.hotel-info__offer {
+  margin-left: 14px;
+}
+.hotel-description {
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.stars {
+  flex-basis: 100%;
+}
+
+.offer {
+  font-size: 10px;
+  line-height: 13px;
+  padding: 4px 9px;
+  background-color: #ec1f46;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+.rating {
+  max-width: 65px;
+  min-height: 45px;
+  text-align: center;
+  background-color: #ec1f46;
+  color: #fff;
+  border-radius: 4px;
+}
+.rating__text {
+  font-size: 8px;
+  line-height: 10px;
+}
+.rating__counter {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.swiper {
+  width: 100%;
+  height: 450px;
+  position: relative;
+  border-radius: 8px;
+}
+.swiper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(180deg, rgba(0, 122, 223, 0.48), rgba(255, 255, 255, 0.13) 100%);
+  z-index: 10;
+}
+
+.slider {
+  width: 728px;
+}
+.slider-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 99;
+  width: 30px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10px;
+  background-color: transparent;
+}
+.slider-button--next {
+  right: 18px;
+  background-image: url(../images/Vector-next.svg);
+}
+.slider-button--prev {
+  left: 18px;
+  background-image: url(../images/Vector-left.svg);
+}
+
 .user__name {
   font-size: 14px;
   line-height: 15px;
@@ -466,5 +593,10 @@ template {
   .logo {
     width: 100px;
     height: 13px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container {
+    max-width: 280px;
   }
 }/*# sourceMappingURL=style.css.map */
